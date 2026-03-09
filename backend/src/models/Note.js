@@ -19,5 +19,6 @@ const noteSchema = new mongoose.Schema(
 
 const Note = mongoose.model("Note", noteSchema)
 // 2. create a model based on the schema
+// test push
 
 export default Note
