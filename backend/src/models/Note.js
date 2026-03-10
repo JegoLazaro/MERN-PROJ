@@ -17,8 +17,7 @@ const noteSchema = new mongoose.Schema(
   { timestamps: true }, // createdAt and updatedAt
 );
 
-const Note = mongoose.model("Note", noteSchema)
 // 2. create a model based on the schema
-// test push
+const Note = mongoose.model("Note", noteSchema)
 
 export default Note
